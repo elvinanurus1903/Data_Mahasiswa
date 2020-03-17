@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dashboard">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anda Berhasil Login"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <Button
+        android:background="#6495ED"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tambah"
+        android:textColor="#ffffff"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="Tambah Data"
+        />
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/lihat"
+        android:background="#008B8B"
+        android:textColor="#ffffff"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="Lihat Data"
+        />
+
+    <Button
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button"
+        android:background="#B22222"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogOut"
+         />
+</LinearLayout>
